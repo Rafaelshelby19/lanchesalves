@@ -1,0 +1,68 @@
+/* Estilização básica do cabeçalho */
+header h2 {
+    color: #131010; /* Cor escura para visibilidade */
+    text-align: center; /* Centraliza o texto do cabeçalho */
+    margin-bottom: 20px; /* Espaço abaixo do cabeçalho para separar do formulário */
+}
+
+/* Estilização geral do formulário */
+form {
+    max-width: 400px; /* Largura máxima do formulário */
+    max-height: 360px;
+    margin: auto; /* Centraliza o formulário horizontalmente */
+    padding: 20px; /* Preenchimento interno do formulário */
+    background: #f8f8f8; /* Cor de fundo clara para o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra suave para profundidade */
+    transform: translateY(100px);
+}
+
+/* Estilização para os contêineres dos campos de entrada */
+.background-form, div {
+    margin-bottom: 15px; /* Espaço entre os campos */
+}
+
+/* Estilização para rótulos */
+label {
+    display: block; /* Faz com que cada rótulo ocupe uma linha completa */
+    margin-bottom: 5px; /* Espaço entre o rótulo e o campo de entrada */
+    color: #666; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilização para os campos de entrada */
+input[type="email"], input[type="password"] {
+    width: 100%; /* Faz os campos ocuparem a largura total do contêiner */
+    padding: 10px; /* Preenchimento interno para facilidade de digitação */
+    border: 1px solid #ccc; /* Borda sutil */
+    border-radius: 4px; /* Bordas arredondadas para uma aparência suave */
+    box-sizing: border-box; /* Assegura que padding e borda estão incluídos na largura */
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #0056b3; /* Cor de destaque ao focar no campo */
+    box-shadow: 0 0 8px rgba(0, 86, 179, 0.2); /* Sombra externa suave ao focar */
+}
+
+button {width: 100%;
+padding: 10px;
+color: rgb(211, 216, 216);
+background-color: #0056b3;
+transform: translateY(20px);
+}
+button[type="button"]{width: 30%;
+padding: 5px; ;
+color: rgb(7, 1, 16);
+background-color:#b4b8ba ;
+transform: translatey(50px);
+margin-left: 60%;
+
+}
+form h3 {    color: #151111; /* Cor escura para visibilidade */
+text-align: center; /* Centraliza o texto do cabeçalho */
+margin-bottom: 20px; /* Espaço abaixo do cabeçalho para separar do formulário */
+transform: translatey(-30px);
+margin-left: -20%;
+padding: 40px;
+font-weight: normal;
+font-size: 17px;}
